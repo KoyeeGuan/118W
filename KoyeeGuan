@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?
+    family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title></title>
+<style>
+ * {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(196, 194, 175);
+}
+.h {
+  min-height: 100vh;
+  width: 100%;
+
+  background-position: left;
+  position: fixed;
+}
+nav {
+  display: flex;
+  align-items: centre;
+}
+.nav-l {
+  flex: 1;
+  text-align: left;
+}
+.nav-l ul li {
+  display: inline-block;
+  padding: 12px 12px;
+  position: relative;
+  list-style: none;
+}
+.nav-l ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+.nav-l ul li :hover {
+  color: goldenrod;
+  border-bottom: 5px solid grey;
+  transition: 1s;
+}
+
+.hm {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}
+.hm p {
+  font-size: 25px;
+}
+
+
+
+
+
+
+
+</style>
+
+
+  </head>
+  <body>
+    <section class="h">
+      <nav>
+        <div class="nav-l">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="listing.html">Listing</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hm">
+        <div class="img">
+          <img src="Logo.png" width="100px" alt="image not available" />
+        </div>
+        <h1>ABOUT HKTM AGENCY</h1>
+        <p>
+          HKTM Agency is a reputable Real Estate Agency. <br />
+          Our primary goal is to faciliate a fast, convinient, and effective
+          link between clients and agents.<br />
+          Our services are very competitive and through the platform, you can
+          connect with the Real Estate Agency and their agents dirctly.<br />We
+          are commited to offering you the best services<br />
+          that will land you the best deal in the Real Estate Market.<br />
+          Here, you will be able to reach out to clients or agents directly by
+          browsig for listing <br />or agents with much ease. <br />
+          For any detailed questions, you can Contact us<br />
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
